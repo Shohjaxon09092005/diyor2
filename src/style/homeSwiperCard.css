@@ -1,0 +1,57 @@
+.homeSwiperCard {
+    padding: 5%;
+    border-radius: 16px;
+    background: var(--background-secondary);
+    height: 500px;
+}
+
+.homeSwi_content {
+    height: 90%;
+}
+
+
+.homeSwi_content h6 {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--text-icon-tertiary);
+    margin-bottom: 1%;
+}
+
+.homeSwi_content h4 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 133%;
+    letter-spacing: -0.02em;
+    color: var(--base-white);
+    margin-bottom: 1%;
+}
+
+.homeSwi_content p {
+    font-weight: 450;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: -0.01em;
+    color: var(--base-white);
+    margin-top: 5%;
+    margin-bottom: 20%;
+}
+
+@media(max-width:1020px) {
+    .homeSwiperCard h6 {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 150%;
+        color: var(--text-icon-tertiary);
+        margin-bottom: 12px;
+    }
+
+    .homeSwiperCard h4 {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 133%;
+        letter-spacing: -0.02em;
+        color: var(--base-white);
+    }
+}

@@ -1,0 +1,129 @@
+.homeSwiperDiv {
+    height: 500px;
+    border-radius: 16px;
+    background: var(--background-secondary);
+}
+
+.div {
+    border-radius: 16px;
+    background: #232334;
+    height: 32%;
+}
+
+.content {
+    padding: 5%;
+}
+
+.homeSwiDiv_c h6 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--text-icon-tertiary);
+    margin-bottom: 2%;
+}
+
+.homeSwiDiv_c h4 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 133%;
+    letter-spacing: -0.02em;
+    color: var(--base-white);
+    margin-bottom: 1%;
+}
+
+.homeSwiDiv_c p {
+    font-weight: 450;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: -0.01em;
+    color: var(--base-white);
+}
+.homeSwiDiv_c{
+    height: 260px;
+}
+
+@media(max-width:1020px) {
+    .content h6 {
+        font-weight: 400;
+        font-size: 80%;
+        line-height: 150%;
+        color: var(--text-icon-tertiary);
+        margin-bottom: 3%;
+    }
+
+    .content h4 {
+        font-weight: 700;
+        font-size: 110%;
+        line-height: 133%;
+        letter-spacing: -0.02em;
+        color: var(--base-white);
+        margin-bottom: 8px;
+    }
+
+    .content p {
+        width: 90%;
+        font-family: var(--font-family);
+        font-weight: 450;
+        font-size: 14px;
+        line-height: 150%;
+        letter-spacing: -0.01em;
+        color: var(--base-white);
+        margin-bottom: 25px;
+    }
+}
+
+@media(max-width:928px) {
+    .content h4 {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 133%;
+        letter-spacing: -0.02em;
+        color: var(--base-white);
+        margin-bottom: 8px;
+    }
+
+    .div {
+        border-radius: 16px;
+        padding: 18%;
+        background: #232334;
+    }
+
+    .content p {
+        width: 90%;
+        font-family: var(--font-family);
+        font-weight: 450;
+        font-size: 11.4px;
+        line-height: 150%;
+        letter-spacing: -0.01em;
+        color: var(--base-white);
+        margin-bottom: 24%;
+    }
+}
+
+@media(max-width:320px) {
+    .content h4 {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 133%;
+        letter-spacing: -0.02em;
+        color: var(--base-white);
+        margin-bottom: 8px;
+    }
+
+    .div {
+        border-radius: 16px;
+        padding: 18%;
+        background: #232334;
+    }
+
+    .content p {
+        width: 90%;
+        font-family: var(--font-family);
+        font-weight: 450;
+        font-size: 11.4px;
+        line-height: 150%;
+        letter-spacing: -0.01em;
+        color: var(--base-white);
+        margin-bottom: 19%;
+    }
+}

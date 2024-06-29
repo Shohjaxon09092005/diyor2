@@ -1,0 +1,467 @@
+.homeHero {
+    padding-top: 80px;
+    padding-bottom: 128px;
+}
+
+.homeHero h1 {
+    width: 80%;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 110%;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: var(--base-white);
+    width: 90%px;
+    margin: 0 auto;
+}
+
+.homeHero_wrapper {
+    margin-bottom: 50px;
+}
+.homeHero_wrapper h1 span{
+    position: relative;
+}
+.homeHero_wrapper h1 span img{
+    width: 10   0%;
+    position: absolute;
+    bottom: -10px;
+    left: 20px;
+}
+
+.homeHero_btn button:nth-of-type(1) {
+    border-radius: 7px;
+    padding: 12px 16px;
+    width: 180px;
+    height: 48px;
+    background: var(--background-secondary);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: -0.01em;
+    text-align: center;
+    color: var(--base-white);
+    border: none;
+}
+
+.homeHero_btn button:nth-of-type(2) {
+    border-radius: 7px;
+    padding: 12px 16px;
+    height: 48px;
+    background: var(--accent-brand);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: -0.01em;
+    text-align: center;
+    color: var(--base-white);
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.homeHero_btn {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    width: 35%;
+    height: 70px;
+    margin: 0 auto;
+}
+
+.homeHero_text {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 80px auto 0;
+}
+
+.homeHero_card h4 {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 160%;
+    text-align: center;
+    color: var(--base-white);
+}
+
+.homeHero_card p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 133%;
+    text-align: center;
+    color: var(--text-icon-secondary);
+}
+
+.homeHero_wrapper {
+    position: relative;
+}
+
+.homeHero_wrapper img {
+    position: absolute;
+    right: 200px;
+}
+
+@media(max-width: 1153px){
+    .homeHero h1 {
+        width: 80%;
+        font-weight: 700;
+        font-size: 70px;
+        line-height: 110%;
+        letter-spacing: -0.02em;
+        text-align: center;
+        color: var(--base-white);
+        margin: 0 auto;
+    }
+    .homeHero_btn button:nth-of-type(1) {
+        border-radius: 7px;
+        padding: 12px 16px;
+        background: var(--background-secondary);
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 150%;
+        letter-spacing: -0.01em;
+        text-align: center;
+        color: var(--base-white);
+        border: none;
+    }
+    .homeHero_btn button:nth-of-type(2) {
+        border-radius: 7px;
+        padding: 12px 16px;
+        background: var(--accent-brand);
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 150%;
+        letter-spacing: -0.01em;
+        text-align: center;
+        color: var(--base-white);
+        border: none;
+        display: flex;
+        align-items: center;
+        gap: 12px;
+    }
+    .homeHero_card h4 {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 160%;
+        text-align: center;
+        color: var(--base-white);
+    }
+    
+    .homeHero_card p {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 133%;
+        text-align: center;
+        color: var(--text-icon-secondary);
+    }
+}
+@media(max-width: 1053px){
+    .homeHero h1 {
+        width: 80%;
+        font-weight: 700;
+        font-size: 65px;
+        line-height: 110%;
+        letter-spacing: -0.02em;
+        text-align: center;
+        color: var(--base-white);
+        margin: 0 auto;
+    }
+    .homeHero_btn button:nth-of-type(1) {
+        border-radius: 7px;
+        padding: 12px 16px;
+        background: var(--background-secondary);
+        font-weight: 500;
+        font-size: 10px;
+        line-height: 150%;
+        letter-spacing: -0.01em;
+        text-align: center;
+        color: var(--base-white);
+        border: none;
+    }
+    .homeHero_btn button:nth-of-type(2) {
+        border-radius: 7px;
+        padding: 12px 16px;
+        background: var(--accent-brand);
+        font-weight: 500;
+        font-size: 11px;
+        line-height: 150%;
+        letter-spacing: -0.01em;
+        text-align: center;
+        color: var(--base-white);
+        border: none;
+        display: flex;
+        align-items: center;
+        gap: 12px;
+    }
+    .homeHero_card h4 {
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 160%;
+        text-align: center;
+        color: var(--base-white);
+    }
+    
+    .homeHero_card p {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 133%;
+        text-align: center;
+        color: var(--text-icon-secondary);
+    }
+}
+@media(max-width: 1002px){
+    .homeHero h1 {
+        width: 80%;
+        font-weight: 700;
+        font-size: 60px;
+        line-height: 110%;
+        letter-spacing: -0.02em;
+        text-align: center;
+        color: var(--base-white);
+        margin: 0 auto;
+    }
+    .homeHero_btn button:nth-of-type(1) {
+        border-radius: 7px;
+        padding: 12px 16px;
+        background: var(--background-secondary);
+        font-weight: 500;
+        font-size: 8px;
+        line-height: 150%;
+        letter-spacing: -0.01em;
+        text-align: center;
+        color: var(--base-white);
+        border: none;
+    }
+    .homeHero_btn button:nth-of-type(2) {
+        border-radius: 7px;
+        padding: 12px 16px;
+        background: var(--accent-brand);
+        font-weight: 500;
+        font-size: 9px;
+        line-height: 150%;
+        letter-spacing: -0.01em;
+        text-align: center;
+        color: var(--base-white);
+        border: none;
+        display: flex;
+        align-items: center;
+        gap: 12px;
+    }
+    .homeHero_card h4 {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 160%;
+        text-align: center;
+        color: var(--base-white);
+    }
+    
+    .homeHero_card p {
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 133%;
+        text-align: center;
+        color: var(--text-icon-secondary);
+    }
+}
+@media(max-width: 954px){
+    .homeHero h1 {
+        width: 80%;
+        font-weight: 700;
+        font-size: 60px;
+        line-height: 110%;
+        letter-spacing: -0.02em;
+        text-align: center;
+        color: var(--base-white);
+        margin: 0 auto;
+    }
+    .homeHero_btn{
+        display: block;
+        max-width: 500px;
+        width: 100%;
+    }
+    .homeHero_wrapper h1 span img{
+        width: 90%;
+    }
+    .homeHero_btn button:nth-of-type(1) {
+        border-radius: 7px;
+        padding: 12px 16px;
+        background: var(--background-secondary);
+        font-weight: 500;
+        font-size: 10px;
+        line-height: 150%;
+        letter-spacing: -0.01em;
+        text-align: center;
+        color: var(--base-white);
+        border: none;
+        width: 100%;
+    }
+    .homeHero_btn button:nth-of-type(2) {
+        border-radius: 7px;
+        padding-left: 40%;
+        background: var(--accent-brand);
+        font-weight: 500;
+        font-size: 11px;
+        line-height: 150%;
+        letter-spacing: -0.01em;
+        color: var(--base-white);
+        border: none;
+        width: 100%;
+        margin-top: 5%;
+
+    }
+    .homeHero_card h4 {
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 160%;
+        text-align: center;
+        color: var(--base-white);
+    }
+    
+    .homeHero_card p {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 133%;
+        text-align: center;
+        color: var(--text-icon-secondary);
+    }
+    .homeHero_text{
+        display: block;
+        margin-top: 10%;
+    }
+    .homeHero_card{
+        margin-bottom: 5%;
+    }
+}
+@media(max-width: 643px){
+    .homeHero h1 {
+        width: 80%;
+        font-weight: 700;
+        font-size: 60px;
+        line-height: 110%;
+        letter-spacing: -0.02em;
+        text-align: center;
+        color: var(--base-white);
+        margin: 0 auto;
+    }
+    .homeHero_text{
+        display: block;
+        margin-top: 100px;
+    }
+    .homeHero_btn{
+        display: block;
+    }
+    .homeHero_btn button:nth-of-type(1) {
+        border-radius: 7px;
+        padding: 12px 16px;
+        background: var(--background-secondary);
+        font-weight: 500;
+        font-size: 10px;
+        line-height: 150%;
+        letter-spacing: -0.01em;
+        text-align: center;
+        color: var(--base-white);
+        border: none;
+        width: 100%;
+    }
+    .homeHero_btn button:nth-of-type(2) {
+        border-radius: 7px;
+        padding-left: 40%;
+        background: var(--accent-brand);
+        font-weight: 500;
+        font-size: 11px;
+        line-height: 150%;
+        letter-spacing: -0.01em;
+        color: var(--base-white);
+        border: none;
+        width: 100%;
+        margin-top: 5%;
+
+    }
+    .homeHero_card h4 {
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 160%;
+        text-align: center;
+        color: var(--base-white);
+    }
+    
+    .homeHero_card p {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 133%;
+        text-align: center;
+        color: var(--text-icon-secondary);
+    }
+    .homeHero_text{
+        display: block;
+        margin-top: 10%;
+    }
+    .homeHero_card{
+        margin-bottom: 5%;
+    }
+}
+@media(max-width: 460px){
+    .homeHero h1 {
+        width: 80%;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 110%;
+        letter-spacing: -0.02em;
+        text-align: center;
+        color: var(--base-white);
+        margin: 0 auto;
+    }
+    .homeHero_btn{
+        display: block;
+    }
+    .homeHero_btn button:nth-of-type(1) {
+        border-radius: 7px;
+        padding: 12px 16px;
+        background: var(--background-secondary);
+        font-weight: 500;
+        font-size: 9%;
+        line-height: 150%;
+        letter-spacing: -0.01em;
+        text-align: center;
+        color: var(--base-white);
+        border: none;
+        width: 100%;
+    }
+
+    .homeHero_btn button:nth-of-type(2) {
+        border-radius: 7px;
+        padding-left: 40%;
+        background: var(--accent-brand);
+        font-weight: 500;
+        font-size: 10%;
+        line-height: 150%;
+        letter-spacing: -0.01em;
+        color: var(--base-white);
+        border: none;
+        width: 100%;
+        margin-top: 5%;
+    }
+    .homeHero_card h4 {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 160%;
+        text-align: center;
+        color: var(--base-white);
+    }
+    
+    .homeHero_card p {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 133%;
+        text-align: center;
+        color: var(--text-icon-secondary);
+    }
+    .homeHero_text{
+        display: block;
+        margin-top: 100px;
+    }
+    .homeHero_card{
+        margin-bottom: 5%;
+    }
+}

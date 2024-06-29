@@ -1,0 +1,371 @@
+.approvals_contant {
+    width: 57%;
+    height: 160px;
+    margin: 0 auto;
+    margin-bottom: 160px;
+}
+
+.approvals {
+    margin-top: 80px;
+}
+
+.approvals_contant p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 133%;
+    letter-spacing: -0.01em;
+    text-align: center;
+    color: var(--text-icon-secondary);
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+
+.approvals_contant h4 {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 120%;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: var(--base-white);
+}
+
+.approvals_contant h5 {
+    width: 38%;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 133%;
+    letter-spacing: -0.01em;
+    text-align: center;
+    color: var(--accent-brand);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 0 auto;
+}
+
+.approvals_contant h4 span {
+    position: relative;
+}
+
+.approvals_contant h4 span img {
+    width: 60%;
+    position: absolute;
+    top: -30px;
+    height: 85%;
+}
+
+.approvalsCard {
+    width: 50%;
+    border-radius: 16px;
+    background: var(--background-secondary);
+    margin: 0 auto;
+}
+
+.approvals_grid {
+    margin: 0 auto;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.approvals_grid img {
+    width: 100%;
+}
+
+.app_content {
+    width: 100%;
+    padding: 24px;
+}
+
+.app_content span {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--text-icon-secondary);
+}
+
+.app_content h5 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 133%;
+    letter-spacing: -0.02em;
+    color: var(--base-white);
+    margin-top: 8px;
+    margin-bottom: 25%;
+}
+
+@media(max-width:1227px) {
+    .approvals_contant h5 {
+        width: 38%;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 133%;
+        letter-spacing: -0.01em;
+        text-align: center;
+        color: var(--accent-brand);
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        margin: 0 auto;
+    }
+    .approvals_contant h4 {
+        font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 38px;
+        line-height: 120%;
+        letter-spacing: -0.02em;
+        text-align: center;
+        color: var(--base-white);
+    }
+}
+
+
+@media(max-width:991px) {
+    .approvals_contant h5 {
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 133%;
+        letter-spacing: -0.01em;
+        text-align: center;
+        color: var(--accent-brand);
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        margin: 0 auto;
+    }
+    .approvals_contant h5 svg{
+        width: 18px;
+    }
+    .approvals_contant p {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 133%;
+        letter-spacing: -0.01em;
+        text-align: center;
+        color: var(--text-icon-secondary);
+        margin-top: 16px;
+        margin-bottom: 24px;
+    }
+    .approvals_contant h4 {
+        font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 120%;
+        letter-spacing: -0.02em;
+        text-align: center;
+        color: var(--base-white);
+    }
+    
+    .approvals_contant h4 span img{
+        width: 40px;
+        height: 40px;
+    }
+}
+@media(max-width:787px) {
+    .approvals_contant h5 {
+        font-weight: 400;
+        font-size: 9px;
+        line-height: 133%;
+        letter-spacing: -0.01em;
+        text-align: center;
+        color: var(--accent-brand);
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+    .approvals_contant h5 svg{
+        width: 16px;
+    }
+    .approvals_contant p {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 133%;
+        letter-spacing: -0.01em;
+        text-align: center;
+        color: var(--text-icon-secondary);
+        margin-top: 16px;
+        margin-bottom: 24px;
+    }
+    .approvals_contant h4 {
+        font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 33px;
+        line-height: 120%;
+        letter-spacing: -0.02em;
+        text-align: center;
+        color: var(--base-white);
+    }
+    
+    .approvals_contant h4 span img{
+        width: 35px;
+        height: 35px;
+    }
+}
+@media(max-width:657px) {
+    .approvals_contant h5 {
+        font-weight: 400;
+        font-size: 8px;
+        line-height: 133%;
+        letter-spacing: -0.01em;
+        text-align: center;
+        color: var(--accent-brand);
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        margin: 0 auto;
+    }
+    .approvals_contant h5 svg{
+        width: 15px;
+    }
+    .approvals_contant p {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 133%;
+        letter-spacing: -0.01em;
+        text-align: center;
+        color: var(--text-icon-secondary);
+        margin-top: 16px;
+        margin-bottom: 24px;
+    }
+    .approvals_contant h4 {
+        font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 33px;
+        line-height: 120%;
+        letter-spacing: -0.02em;
+        text-align: center;
+        color: var(--base-white);
+    }
+    
+    .approvals_contant h4 span img{
+        width: 30px;
+        height: 30px;
+    }
+    .approvals_grid{
+        display: inline;
+    }
+    .approvalsCard{
+        margin-bottom: 50px;
+    }
+
+    .approvalsCard:nth-of-type(1){
+        margin-top: -100px;
+    }
+}
+
+@media(max-width:593px) {
+    .approvals_contant h5 {
+        font-weight: 400;
+        font-size: 6px;
+        line-height: 133%;
+        letter-spacing: -0.01em;
+        text-align: center;
+        color: var(--accent-brand);
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        margin: 0 auto;
+    }
+    .approvals_contant h5 svg{
+        width: 13px;
+    }
+    .approvals_contant p {
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 133%;
+        letter-spacing: -0.01em;
+        text-align: center;
+        color: var(--text-icon-secondary);
+        margin-top: 16px;
+        margin-bottom: 24px;
+    }
+    .approvals_contant h4 {
+        font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 120%;
+        letter-spacing: -0.02em;
+        text-align: center;
+        color: var(--base-white);
+    }
+    
+    .approvals_contant h4 span img{
+        width: 25px;
+        height: 25px;
+    }
+    .approvals_grid{
+        display: inline;
+    }
+    .approvalsCard{
+        margin-bottom: 50px;
+    }
+
+    .approvalsCard:nth-of-type(1){
+        margin-top: -100px;
+    }
+    .app_content span{
+        font-size: 10px;
+    }
+    .app_content h5{
+        font-size: 16px;
+    }
+}
+@media(max-width:469px) {
+    .approvals_contant h5 {
+        font-weight: 400;
+        font-size: 4px;
+        line-height: 133%;
+        letter-spacing: -0.01em;
+        text-align: center;
+        color: var(--accent-brand);
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        margin: 0 auto;
+    }
+    .approvals_contant h5 svg{
+        width: 12px;
+    }
+    .approvals_contant p {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 133%;
+        letter-spacing: -0.01em;
+        text-align: center;
+        color: var(--text-icon-secondary);
+        margin-top: 16px;
+        margin-bottom: 24px;
+    }
+    .approvals_contant h4 {
+        font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 29px;
+        line-height: 120%;
+        letter-spacing: -0.02em;
+        text-align: center;
+        color: var(--base-white);
+    }
+    
+    .approvals_contant h4 span img{
+        width: 20px;
+        height: 20px;
+    }
+    .approvals_grid{
+        display: inline;
+    }
+    .approvalsCard{
+        margin-bottom: 40px;
+    }
+
+    .approvalsCard:nth-of-type(1){
+        margin-top: -100px;
+    }
+    .app_content span{
+        font-size: 10px;
+    }
+    .app_content h5{
+        font-size: 15px;
+    }
+}

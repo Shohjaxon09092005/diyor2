@@ -1,0 +1,110 @@
+.sectionNav {
+    width: 65%;
+    margin: 0 auto;
+}
+
+.sectionNav h4 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 120%;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: var(--base-white);
+    margin-top: 160px;
+    margin-bottom: 24px;
+}
+
+.sectionNav p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 133%;
+    letter-spacing: -0.01em;
+    text-align: center;
+    color: var(--text-icon-secondary);
+    margin-bottom: 80px;
+}
+
+.sectionNav h4 span{
+    position: relative;
+}
+.sectionNav h4 span img:nth-of-type(1){
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.immm{
+    position: absolute; 
+    bottom: 0;
+    right: 0;
+}
+
+
+@media(max-width:1018px){
+    .sectionNav h4 {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 120%;
+        letter-spacing: -0.02em;
+        text-align: center;
+        color: var(--base-white);
+        margin-top: 160px;
+        margin-bottom: 24px;
+    }
+}
+
+
+@media(max-width:910px){
+    .sectionNav h4 {
+        font-weight: 700;
+        font-size: 34px;
+        line-height: 120%;
+        letter-spacing: -0.02em;
+        text-align: center;
+        color: var(--base-white);
+        margin-top: 160px;
+        margin-bottom: 24px;
+    }
+    .sectionNav p {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 133%;
+        letter-spacing: -0.01em;
+        text-align: center;
+        color: var(--text-icon-secondary);
+        margin-bottom: 80px;
+    }
+    .sectionNav h4 span img:nth-of-type(1){
+        width: 95%;
+        position: absolute;
+        top: 0;
+        right: 10px;
+    }
+}
+
+@media(max-width:514px){
+    .sectionNav h4 {
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 120%;
+        letter-spacing: -0.02em;
+        text-align: center;
+        color: var(--base-white);
+        margin-top: 160px;
+        margin-bottom: 24px;
+    }
+    .sectionNav p {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 133%;
+        letter-spacing: -0.01em;
+        text-align: center;
+        color: var(--text-icon-secondary);
+        margin-bottom: 80px;
+    }
+    .sectionNav h4 span img:nth-of-type(1){
+        width: 90%;
+        position: absolute;
+        top: 0;
+        right: 10px;
+    }
+}

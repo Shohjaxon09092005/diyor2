@@ -1,0 +1,156 @@
+.process_card {
+    border-radius: 16px;
+    padding: 24px 24px 15%;
+    background: var(--background-secondary);
+    position: relative;
+    z-index: -1;
+}
+
+.process_card:nth-of-type(1) {
+    transform: rotate(-4deg);
+    margin-top: -1%;
+    margin-right: -6%;
+}
+
+.process_card:nth-of-type(2) {
+    transform: rotate(3deg);
+    margin-top: 2.5%;
+    margin-right: -6%;
+
+}
+
+.process_card:nth-of-type(3) {
+    transform: rotate(-2deg);
+    margin-top: -1.1%;
+}
+
+.process_cards {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.strelka1 {
+    width: 121px;
+    height: 40px;
+
+}
+
+.strelka2 {
+    width: 121px;
+    height: 40px;
+    margin-top: 400px;
+
+}
+
+.process_card h4 {
+    border-radius: 1000px;
+    font-weight: 400;
+    font-size: 64px;
+    color: var(--base-white);
+    margin-bottom: 30px;
+}
+
+.process_card h3 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 133%;
+    letter-spacing: -0.02em;
+    color: var(--base-white);
+    margin-bottom: 10px;
+}
+
+.process_card p {
+    font-weight: 450;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: -0.01em;
+    color: var(--base-white);
+}
+
+
+@media(max-width:1000px) {
+    .process_card h4 {
+        font-size: 62px;
+    }
+
+    .process_card h3 {
+        font-size: 23px;
+    }
+
+    .process_card p {
+        font-size: 14px;
+    }
+}
+
+@media(max-width:860px) {
+    .process_card h4 {
+        font-size: 60px;
+    }
+
+    .process_card h3 {
+        font-size: 21px;
+    }
+
+    .process_card p {
+        font-size: 12px;
+    }
+}
+
+@media(max-width:748px) {
+    .process_card h4 {
+        font-size: 58px;
+    }
+
+    .process_card h3 {
+        font-size: 20px;
+    }
+
+    .process_card p {
+        font-size: 10px;
+    }
+}
+
+@media(max-width:680px) {
+    .process_card h4 {
+        font-size: 58px;
+    }
+
+    .process_card h3 {
+        font-size: 20px;
+    }
+
+    .process_card p {
+        font-size: 10px;
+        margin-bottom: 10%;
+    }
+
+    .process_cards {
+        display: inline;
+    }
+
+    .process_card:nth-of-type(1) {
+        margin-right: 0;
+    }
+
+    .process_card:nth-of-type(2) {
+        margin-right: 0;
+    }
+
+    .process_card:nth-of-type(3) {
+        transform: rotate(-2deg);
+        margin-bottom: 10%;
+    }
+
+    .strelka1 {
+        width: 121px;
+        height: 40px;
+        transform: rotate(90deg);
+    }
+
+    .strelka2 {
+        width: 121px;
+        height: 40px;
+        transform: rotate(90deg);
+        margin-top: 0%;
+    }
+}
